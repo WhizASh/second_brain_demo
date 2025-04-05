@@ -1,6 +1,6 @@
 import mongoose, { Schema, mongo } from "mongoose";
 
-mongoose.connect("mongodb+srv://admin:admin%40123@firstone.ys7b7.mongodb.net/Brains")
+mongoose.connect("url")
 
 const Usermodel = new mongoose.Schema({
     username:{type:String,unique:true,required:true},
